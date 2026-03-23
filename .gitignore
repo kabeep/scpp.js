@@ -1,5 +1,50 @@
-# Node modules
-node_modules
+# Dependencies
+node_modules/
 
-# Idea file
-.idea
+# Environment Files
+.env*
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# pnpm
+pnpm-workspace.yaml
+
+#! yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+#! .yarn/cache
+.pnp.*
+
+#! VSCode Presets
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# VSCode Local History
+.history/
+
+# IntelliJ
+.idea/
+
+# Log Files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Cache Files
+.cache/
